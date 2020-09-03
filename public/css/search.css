@@ -1,0 +1,69 @@
+body{
+margin-top: 7em;
+}
+
+  h5.searchTittle{
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+/* RESULTADOS DE DIETAS */
+
+div.dietResult{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+p.resultDiet{
+  color:#393D40;
+  margin: 0 auto;
+}
+
+div.diet{
+  margin-left: 2em;
+}
+
+a.resultbuttondiet{
+  margin-right: 1em;
+}
+
+/* RESULTADOS DE ATRIBUTOS */
+
+div.attributeResult{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+p.resultAttribute{
+  color:#393D40;
+  margin: 0 auto;
+}
+
+div.attribute{
+  margin-left: 2em;
+  margin-bottom: 1em;
+}
+
+/* RESULTADOS DE PRODUCTOS */
+
+div.productcategory{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.producto{
+  padding: 1em;
+}
+
+.prodpricemodal{
+  margin-top:3em;
+}
+
+@media(max-width: 992px){
+  body{
+  margin-top: 9em;
+  }
+}

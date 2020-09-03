@@ -1,0 +1,199 @@
+/* ACA VAMOS A TOCAR TODO EL CSS DEL CART */
+
+/* DIV DE PRODUCTOS */
+
+div.forelsecontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+div.cartProductsContainer{
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  background-color: #F1EDEA;
+  border-radius: 2em;
+  width: 80%;
+  margin-bottom: 1%;
+}
+
+h2{
+  align-self: flex-start;
+  margin-left: 8%;
+}
+
+h5.prodTittle{
+  width: 20%;
+  margin: 0px;
+}
+
+div.cartimgprodcont{
+  width: 10%;
+}
+
+img.cartprodimg{
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+}
+
+form.cantasegurar{
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+div.contadorCant{
+display: flex;
+width: 100%;
+margin: 0px;
+font-size:9px
+}
+
+div.priceShower{
+  margin-left: 2%;
+}
+
+input.cant-product{
+  margin: 0;
+}
+
+p.productPrice{
+  margin: 0px;
+  margin-right: 1em;
+  font-family: sans-serif;
+  width: 100%;
+  text-align: center;
+  padding-top: 0.8em;
+  font-size: 20px;
+}
+
+p.totalItemPrice{
+  margin-left: 1em;
+  margin-bottom: 0px;
+    padding-top: 0.8em;
+  text-align: center;
+}
+
+div.asegurarButton{
+width: 5%;
+margin: 0px;
+}
+
+form.deleteButton{
+  margin: 0px;
+}
+
+div.deleteProdButton{
+width: 5%;
+margin: 0px;
+margin-right: 3em;
+}
+
+button.btn.btn-light.buttonDeleteDesk{
+  color: white;
+  background-color: #D69764;
+}
+
+
+button.btn.btn-light.buttonDelete:hover{
+  color: white;
+  background-color: red;
+}
+
+a.btn.btn-primary.coprarButton{
+  align-self: flex-start;
+  margin-left: 70%;
+  background-color: #EE7500;
+}
+
+.buttonDelete{
+  display: none;
+}
+
+.quantity2{
+  font-size: 20px;
+  margin-right: 1em;
+}
+
+@media(max-width: 992px){
+
+  div.deleteProdButton{
+  margin-right: 2.5%;
+  }
+
+  div.cartProductsContainer{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: #F1EDEA;
+    border-radius: 2em;
+    width: 96%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+
+  }
+
+  div.forelsecontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1%;
+    width: 96%;
+    margin: 0 auto;
+  }
+
+h5{
+  font-size: 0.7em;
+}
+
+img.cartprodimg{
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  padding: 0.2em;
+}
+
+form.cantasegurar{
+  margin: 0px;
+  width: 5em;
+}
+
+.quantity2{
+  font-size: 10px;
+  margin-right: 0;
+}
+
+p.productPrice{
+  margin-left: 1em;
+  font-family: sans-serif;
+  font-size: 1em;
+  font-size:10px
+}
+
+.buttonDelete{
+  color: white;
+  background-color: #D69764;
+  display:block;
+  font-size: 0.4em;
+}
+
+button.btn.btn-light.buttonDeleteDesk{
+display: none;
+}
+
+div.priceShower{
+  /* margin:0 auto; */
+}
+
+}

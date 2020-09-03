@@ -1,0 +1,19 @@
+h2.categorynametittle{
+  margin: 2%;
+}
+
+div.productcategory{
+  display: flex;
+  justify-content: flex-start;
+}
+
+div.producto{
+  width: 24%;
+  height: 30%;
+}
+
+body{
+  background-color: #FFFFFF;
+  margin-top:8.5em;
+  margin-left:2em;
+}

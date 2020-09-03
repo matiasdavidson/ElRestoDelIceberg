@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+}
+
+ul, ol{
+ padding: none;
+}
+
+li{
+ list-style-type: none;
+}
+
+a{
+ text-decoration: none;
+ color: none;
+}
+.login1{
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+.iconoiceberg{
+  width: 60px;
+  height: 60px;
+  margin: 0.5rem;
+}
+
+.iconoicebergsmall{
+  width: 60px;
+  height: 60px;
+}
+
+.checkbox{
+  position: static;
+  display: inline-block;
+}
+
+button.btn.btn-primary{
+  background-color: #D69764;
+  border: solid 1px #D69764;
+}
+
+button.btn.btn-primary:hover{
+  background-color: #F1EDEA;
+  border: solid 1px #F1EDEA;
+  color: black;
+}
+
+div#loginauth{
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+div#registerauth{
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+a#olvide{
+  color: black;
+  text-decoration: none;
+}
+
+a#olvide:hover{
+  text-decoration: underline;
+}
+
+button.btn.btn-light.btn-sm.registrateAqui{
+  margin-top: 1em;
+  margin-left: 17em;
+}
+/* GENERALES */
+
+@media(max-width: 992px){
+
+  button.btn.btn-light.btn-sm.registrateAqui{
+    margin: 0px;
+    margin-top: 1em;
+  }
+
+}

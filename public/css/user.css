@@ -1,0 +1,24 @@
+body{
+  margin-top: 8%;
+}
+
+div.container{
+  margin-bottom: 3%;
+}
+
+button.btn.btn-primary{
+  background-color: #D69764;
+  border: solid 1px #D69764;
+}
+
+button.btn.btn-primary:hover{
+  background-color: #F1EDEA;
+  border: solid 1px #F1EDEA;
+  color: black;
+}
+
+@media(max-width: 992px){
+  body{
+    margin-top: 40%;
+  }
+}

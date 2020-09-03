@@ -1,0 +1,585 @@
+/* GENERALES */
+
+*{
+ box-sizing: border-box;
+}
+
+ul, ol{
+ padding: none;
+}
+
+li{
+ list-style-type: none;
+}
+
+a{
+ text-decoration: none;
+ color: none;
+}
+
+
+/* BODY */
+body{
+  background-color: #FFFFFF;
+  margin-top:7.5em;
+}
+
+/* HABRIA QUE PONERLE ALGUN FONDO COPADO NO? */
+
+/* NAV BAR 1 */
+
+.navbutton{
+  color: #393D40;
+}
+
+nav.la-de-arriba{
+  border-top: 1px solid lightgrey;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* NAV BAR 2 */
+
+nav#la-segunda{
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+
+/* NAV BAR DESKTOP */
+
+nav#navbar-desktop{
+  display: none;
+}
+
+input.enterSearch{
+  display: none;
+}
+
+/* TOP BUTTON */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #D69764;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #393D40;
+}
+
+/* CAROUSEL DE IMAGENES */
+
+img#img-carousel{
+  height: 5em;
+}
+
+/* CAROUSEL/CUADRO DE CATEGORIAS */
+
+div.categorias-container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 2em 0em;
+  background-color: #FFFFFF;
+}
+
+div.categoria{
+  margin: 0 auto;
+  align-items: center;
+}
+
+img.img-categoria{
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+}
+
+img.img-categoria-vegan{
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+}
+
+img.img-categoria-vegetariano{
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+}
+
+img.img-categoria-organico{
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+}
+
+/* PRODUCTOS */
+
+div.container-productos{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+div.producto{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
+div.img-producto-container{
+  display: flex;
+  width: 100%;
+}
+
+img.imgproducto{
+  width: 10em;
+  height: 10em;
+}
+
+i#productCart{
+  color: #FFFFFF;
+}
+
+
+div.productcategory{
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 33%; */
+  height: 30%
+}
+
+div.producto{
+  padding: 1em;
+}
+/* BUSQUEDA IZQUIERDA */
+
+div.busqueda{
+  display: none;
+}
+
+/* FOOTER */
+
+footer{
+  border-top: 1px solid lightgrey;
+  background-color: #FFFFFF;
+}
+
+.botonessuscribir{
+
+}
+
+.botonindividualsuscibir{
+width:40%;
+height:10%;
+margin-left:5%;
+margin-right:5%;
+margin-bottom:0.5em;
+}
+
+.footerlinks{
+  text-decoration: none;
+  color: #393D40;
+}
+
+.login1{
+  padding: 3vw;
+}
+
+.iconoiceberg{
+  width: 60px;
+  height: 60px;
+  margin: 0.5rem;
+}
+
+.checkbox{
+  position: static;
+  display: inline-block;
+}
+
+/* QUERIES */
+
+.contenedor-iconosbajocarousel{
+display:none;
+
+}
+
+.contenedor-iconosbajocarousel-cadaicono{
+text-align:center;
+padding:1em;
+width:33%
+}
+
+.svgiceberg{
+width:30%;
+height:1em
+}
+
+.productshowcontainer{
+  margin-left: auto;
+   margin-right: auto;
+ }
+
+.productshowimagen{
+  width:80%;
+  height: 80%;
+}
+
+.carousel2{
+  height: 50em;
+}
+
+.carousel3{
+  height: 20em;
+}
+
+.parallax1 {
+  /* The image used */
+  background-image: url('images/nuts 1.jpg');
+
+  /* Set a specific height */
+  /* min-height: 500px; */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url('images/nuts 1.jpg');
+
+  /* Set a specific height */
+  /* min-height: 500px; */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 {
+  /* The image used */
+  background-image: url('images/nuts 1.jpg');
+
+  /* Set a specific height */
+  /* min-height: 500px; */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax4 {
+  /* The image used */
+  background-image: url('images/nuts 1.jpg');
+
+  /* Set a specific height */
+  /* min-height: 500px; */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carouselinnermobile{
+  height: 10%;
+}
+
+.placeholder-class {
+  background-size: contain;
+}
+
+/* RESOLUCION DE PANTALLA DESKTOP = 992px */
+
+@media(min-width: 992px){
+
+/* NAV BAR 1 */
+body{
+  margin-top:6%;
+}
+
+nav.la-de-arriba{
+  display: none;
+}
+
+/* NAV BAR 2 */
+
+nav#la-segunda{
+  display: none;
+}
+
+button.navbar-toggler{
+  display: none;
+}
+
+li#categoria-menu{
+  display: none;
+}
+
+/* NAV BAR DESKTOP */
+
+nav#navbar-desktop{
+  display: flex;
+}
+
+div.collapse.navbar-collapse#navbarSupportedContent{
+  justify-content: flex-end;
+}
+
+form.form-inline.md-form.form-sm.mt-0{
+  display: none;
+}
+
+div.dropdown-menu.busqueda-navibar-desktop{
+  left: 750px;
+}
+
+div.dropdown-menu.user-desktop{
+  left: -106px;
+}
+
+a.nav-link.cateoria-navibar{
+  color: #636363;
+}
+
+#logoutbutton{
+  padding: 0;
+}
+
+/* CAROUSEL DE IMAGENES */
+
+img#img-carousel{
+  width: 16em;
+  height: 21em;
+}
+
+
+/* CAROUSEL/CUADRO DE CATEGORIAS */
+
+div.categorias-container{
+  display: none;
+}
+
+.contenedor-iconosbajocarousel{
+padding:0,5em;
+display:flex;
+width:100%;
+height:10em
+}
+
+.contenedor-iconosbajocarousel-cadaicono{
+text-align:center;
+padding:1em;
+width:33%
+}
+
+.svgiceberg{
+width:30%;
+height:1em
+}
+/* CONTAINER DE PRODUCTOS Y FLITROS */
+
+div.container-productos-busqueda{
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  margin-top: 1.5em;
+}
+
+/* FILTROS */
+
+div.busqueda{
+  margin-left: 1em;
+  padding-right: 1em;
+  width: 17%;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid lightgrey;
+}
+
+h4.filterTittle{
+  margin-top: 1em;
+}
+
+div.dietFilter{
+  display: flex;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+}
+
+div.attributeFilter{
+  display: flex;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+}
+
+p.dietCheck{
+  margin: 0;
+  margin-left: 0.3em;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8em;
+}
+
+p.attributeCheck{
+  margin: 0;
+  margin-left: 0.3em;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8em;
+}
+
+input.checkboxDiet{
+  align-self: center;
+}
+
+input.checkboxAttribute{
+  align-self: center;
+}
+
+button.btn.btn-outline-warning.deAbajo{
+  margin-bottom: 2em;
+}
+
+/* PRODUCTOS */
+
+div.modal-body.welcome{
+  display: flex;
+}
+
+div.img-producto-container-welcome{
+  display: flex;
+  width: 25em;
+  height: 20em;
+}
+
+div.img-producto-container{
+  display: flex;
+  width: 80%;
+  height: 80%;
+}
+
+div.descriptionModal{
+  display: inline-block;
+  flex-direction: column;
+  margin-left: 1em;
+}
+
+p.proddescmodal{
+  width: 100%;
+  height: 50%;
+
+}
+
+p.prodpricemodal{
+  /* align-self: flex-end; */
+
+}
+
+a#addtocartmodal{
+  /* align-self: flex-end; */
+}
+
+p.prodpricemodal{
+  /* font-size: 1.5em; */
+  align-items: flex-end;
+  margin-right: 1em;
+}
+
+div.priceaddtocart{
+  align-self: flex-end;
+  display: flex;
+}
+
+div.container-productos{
+  width: 75%;
+  margin: 0 auto;
+}
+
+div.producto{
+  width: 33%;
+  height: 10%;
+  margin-right:: 1em auto;
+  margin-left:: 1em auto;
+  background-color: #FFFFFF;
+  border-radius: 1em;
+  float:left;
+clear:none;
+}
+
+div.producto{
+  padding: none;
+  margin: none;
+}
+
+
+img.imgproducto{
+  width: 13em;
+  height: 13em;
+}
+
+footer{
+  border-top: 1px solid lightgrey;
+  margin:0em;
+}
+
+.productshowcontainer{
+  display:flex;
+}
+
+.containercantpago{
+  display:flex;
+}
+
+.opcion1{
+  width: 50%
+}
+
+.opcion2{
+  width: 50%
+}
+
+.botonessuscribir{
+  padding-left:15%;
+  padding-right:15%;
+
+}
+
+.botonindividualsuscibir{
+width:40%;
+height:2.4em;
+margin-left:5%;
+margin-right:5%;
+margin-bottom:0.5em;
+}
+
+}
+
+
+@media(min-width: 1080px){
+
+  a.nav-link.dropdown-toggle.busqueda{
+    display: none;
+  }
+
+  form.form-inline.md-form.form-sm.mt-0{
+    display: flex;
+  }
+
+}
